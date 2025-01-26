@@ -1,0 +1,134 @@
+{
+  "menu_id": "judge_superboost_menu",
+  "parent_menu_id": "blt_options",
+  "title": "jsb_menu_title",
+  "description": "jsb_menu_desc",
+  "back_callback" : "judge_superboost_menu_close",
+  "items": [
+    {
+      "type" : "toggle",
+      "id" : "jsb_active_toggle",
+      "title" : "jsb_active_toggle_title",
+      "description" : "jsb_active_toggle_desc",
+      "callback" : "jsb_active_toggle_callback",
+      "value" : "jsb_active_toggle_value",
+      "default_value" : true
+    },
+    {
+      "type" : "multiple_choice",
+      "id" : "jsb_fire_mode_mutli",
+      "title" : "jsb_fire_mode_mutli_title",
+      "description" : "jsb_fire_mode_mutli_desc",
+      "callback" : "jsb_fire_mode_mutli_callback",
+      "items" : [
+          "jsb_fire_mode_mutli_single",
+          "jsb_fire_mode_mutli_auto"
+      ],
+      "value" : "jsb_fire_mode_mutli_value",
+      "default_value" : 1
+    },
+    {
+      "type" : "divider",
+      "size" : 35
+    },
+    {
+        "type" : "slider",
+        "id" : "jsb_damage_slider",
+        "title" : "jsb_damage_slider_title",
+        "description" : "jsb_damage_slider_desc",
+        "callback" : "jsb_damage_slider_callback",
+        "value" : "jsb_damage_slider_value",
+        "default_value" : 210,
+        "max" : 210,
+        "min" : 1,
+        "step" : 1
+    },
+    {
+        "type" : "slider",
+        "id" : "jsb_damage_mul_slider",
+        "title" : "jsb_damage_mul_slider_title",
+        "description" : "jsb_damage_mul_slider_desc",
+        "callback" : "jsb_damage_mul_slider_callback",
+        "value" : "jsb_damage_mul_slider_value",
+        "default_value" : 1,
+        "max" : 9000,
+        "min" : 1,
+        "step" : 1
+    },
+    {
+      "type" : "divider",
+      "size" : 35
+    },
+    {
+        "type" : "slider",
+        "id" : "jsb_single_fire_rate_slider",
+        "title" : "jsb_single_fire_rate_slider_title",
+        "description" : "jsb_single_fire_rate_slider_desc",
+        "callback" : "jsb_single_fire_rate_slider_callback",
+        "value" : "jsb_single_fire_rate_slider_value",
+        "default_value" : 500,
+        "max" : 5000,
+        "min" : 1,
+        "step" : 1
+    },
+    {
+      "type" : "divider",
+      "size" : 35
+    },
+    {
+        "type" : "slider",
+        "id" : "jsb_clip_ammo_slider",
+        "title" : "jsb_clip_ammo_slider_title",
+        "description" : "jsb_clip_ammo_slider_desc",
+        "callback" : "jsb_clip_ammo_slider_callback",
+        "value" : "jsb_clip_ammo_slider_value",
+        "default_value" : 5,
+        "max" : 9999,
+        "min" : 1,
+        "step" : 1
+    },
+    {
+        "type" : "slider",
+        "id" : "jsb_clips_slider",
+        "title" : "jsb_clips_slider_title",
+        "description" : "jsb_clips_slider_desc",
+        "callback" : "jsb_clips_slider_callback",
+        "value" : "jsb_clips_slider_value",
+        "default_value" : 3,
+        "max" : 999,
+        "min" : 1,
+        "step" : 1
+    },
+    {
+      "type" : "divider",
+      "size" : 35
+    },
+    {
+      "type" : "toggle",
+      "id" : "jsb_through_enemy_toggle",
+      "title" : "jsb_through_enemy_toggle_title",
+      "description" : "jsb_through_enemy_toggle_desc",
+      "callback" : "jsb_through_enemy_toggle_callback",
+      "value" : "jsb_through_enemy_toggle_value",
+      "default_value" : false
+    },
+    {
+      "type" : "toggle",
+      "id" : "jsb_through_shield_toggle",
+      "title" : "jsb_through_shield_toggle_title",
+      "description" : "jsb_through_shield_toggle_desc",
+      "callback" : "jsb_through_shield_toggle_callback",
+      "value" : "jsb_through_shield_toggle_value",
+      "default_value" : false
+    },
+    {
+      "type" : "toggle",
+      "id" : "jsb_through_wall_toggle",
+      "title" : "jsb_through_wall_toggle_title",
+      "description" : "jsb_through_wall_toggle_desc",
+      "callback" : "jsb_through_wall_toggle_callback",
+      "value" : "jsb_through_wall_toggle_value",
+      "default_value" : false
+    }
+  ]
+}

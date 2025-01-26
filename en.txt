@@ -1,0 +1,36 @@
+{
+    "jsb_menu_title": "Judge Superboost",
+    "jsb_menu_desc": "Opzioni di Judge Superboost",
+
+    "jsb_active_toggle_title": "Attiva",
+    "jsb_active_toggle_desc": "Attiva/Disattiva la mod",
+
+    "jsb_fire_mode_mutli_title": "Modalità",
+    "jsb_fire_mode_mutli_desc": "Modalità di fuoco",
+    "jsb_fire_mode_mutli_single": "Fuoco singolo",
+    "jsb_fire_mode_mutli_auto": "Fuoco automatico",
+
+    "jsb_damage_slider_title": "Danno",
+    "jsb_damage_slider_desc": "Danno dell'arma",
+
+    "jsb_damage_mul_slider_title": "Moltiplicatore danno",
+    "jsb_damage_mul_slider_desc": "Moltiplicatore danno dell'arma",
+
+    "jsb_single_fire_rate_slider_title": "Colpi al minuto",
+    "jsb_single_fire_rate_slider_desc": "Colpi al minuto",
+
+    "jsb_clip_ammo_slider_title": "Colpi nel caricatore",
+    "jsb_clip_ammo_slider_desc": "Numero di colpi nel caricatore",
+
+    "jsb_clips_slider_title": "Caricatori",
+    "jsb_clips_slider_desc": "Numero caricatori",
+
+    "jsb_through_enemy_toggle_title": "Trapassa nemici",
+    "jsb_through_enemy_toggle_desc": "Trapassa i nemici",
+
+    "jsb_through_shield_toggle_title": "Trapassa scudi",
+    "jsb_through_shield_toggle_desc": "Trapassa gli scudi",
+
+    "jsb_through_wall_toggle_title": "Trapassa muri",
+    "jsb_through_wall_toggle_desc": "Trapassa i muri"
+}
